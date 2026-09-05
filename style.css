@@ -33,6 +33,12 @@
     margin-bottom: 2rem;
     background-color: #2703a8;
     color: #ffffff;
+    transition:all 0.3s ease;
+}
+
+#text-input:focus{
+    box-shadow: 0 0 10px #ca1818a1;
+    transform: scale(1.05);
 }
 
 #heading{
@@ -68,6 +74,7 @@
     font-size: 1rem;
     background-color: #2703a8;
     color: #ffffff;
+    cursor: pointer;
 
 }
 
@@ -84,4 +91,16 @@
     background-color: #2703a8;
     color: #ffffff;
     cursor: pointer;
+}
+
+#speak-button:hover{
+    box-shadow: 0 0 10px #ca1818a1;
+    color: #ffffff;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+#speak-button:active{
+    transform: scale(0.95);
+    transition: all 0.1s ease;
 }
