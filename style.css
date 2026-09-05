@@ -38,9 +38,11 @@
 #heading{
     text-align: center;
     font-size: 5rem;
-    margin-top: 10rem;
+    margin: 10rem 15rem 5rem;
     
     color: #000000;
+    border: 2px solid #ff0202;
+    border-radius: 50px;
 }
 #heading span{
     color: #ff0000;
