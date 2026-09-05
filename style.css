@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    width: 100%;
+    margin: 5rem auto;
+    padding: 2rem;
+    background: linear-gradient(135deg, #3805f1, #9305f1);
+    border-radius: 10px;
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+#text-input{
+    
+    width: 20rem;
+    height: 10rem;
+    max-width: 100%;
+    
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    background-color: #2703a8;
+    color: #ffffff;
+}
+
+#heading{
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 10rem;
+    
+    color: #000000;
+}
+#heading span{
+    color: #ff0000;
+}
+.background-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#voice-select{
+    width: 20rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #2703a8;
+    color: #ffffff;
+
+}
+
+#speak-button{
+    align-self: flex-end;
+    margin-right: 0;
+    width: fit-content;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #2703a8;
+    color: #ffffff;
+    cursor: pointer;
+}
